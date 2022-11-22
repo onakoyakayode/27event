@@ -1,0 +1,160 @@
+.cake {
+    min-height: 70vh;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .cake {
+        min-height: 50vh;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .cake {
+        min-height: 40vh;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .cake {
+        min-height: 50vh;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .cake {
+        min-height: 60vh;
+    }
+}
+
+.cake-food-img {
+    min-height: 25vh;
+    background-image: url('../../../../images/cakes.jpeg');
+    background-position: 0 -60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .cake-food-img {
+        min-height: 10vh;
+        background-position: 0 -12vh;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .cake-food-img {
+        min-height: 15vh;
+        background-position: center;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .cake-food-img {
+        min-height: 15vh;
+        background-position: center -10vh;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .cake-food-img {
+        min-height: 20vh;
+    }
+}
+
+.cake-food-img-2 {
+    min-height: 25vh;
+    background: url('../../../../images/cakes.jpeg');
+    background-position: 0 -80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .cake-food-img-2 {
+        min-height: 10vh;
+        background-position: 0 -18vh;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .cake-food-img-2 {
+        min-height: 15vh;
+        background-position: center -30vh;
+    }
+}
+
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .cake-food-img-2 {
+        min-height: 15vh;
+        background-position: center -25vh;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .cake-food-img-2 {
+        min-height: 20vh;
+    }
+}
+
+
+.cake-price {
+    text-align: center;
+    width: 100%;
+    color: var(--text-color);
+}
+
+.cake-price h1 {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 125%;
+    letter-spacing: 1px;
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .cake-price h1 {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .cake-price h1 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .cake-price h1 {
+        font-size: 2.4rem;
+    }
+}
+
+.cake-price p {
+    margin-block: 15px;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .cake-price p {
+        font-size: 1.1rem;
+        width: 80%;
+        margin: 10px auto;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .cake-price p {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .cake-price p {
+        margin-block: 25px;
+        font-size: 1.7rem;
+    }
+}

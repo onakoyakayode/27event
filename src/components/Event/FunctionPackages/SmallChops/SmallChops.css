@@ -1,0 +1,78 @@
+.small-chops-food-img {
+    min-height: 25vh;
+    background-image: url('../../../../images/samosa.jpeg');
+    background-position: 0 -40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .small-chops-food-img {
+        min-height: 10vh;
+        background-position: 0 -10vh;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .small-chops-food-img {
+        min-height: 15vh;
+        background-position: center -10vh;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .small-chops-food-img {
+        min-height: 15vh;
+        background-position: center -10vh;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .small-chops-food-img {
+        min-height: 20vh;
+    }
+}
+
+.small-chops-food-img-2{
+    min-height: 25vh;
+    background: url('../../../../images/samosa.jpeg');
+    background-position: 0 -70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .small-chops-food-img-2 {
+        min-height: 10vh;
+        background-position: 0 -20vh;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .small-chops-food-img-2 {
+        min-height: 15vh;
+        background-position: center -25vh;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .small-chops-food-img-2 {
+        min-height: 15vh;
+        background-position: center -23vh;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .small-chops-food-img-2 {
+        min-height: 25vh;
+        background-position: center -80vh;
+    }
+}
+
+
+@media only screen and (min-width: 1801px) {
+    .small-chops-food-img-2 {
+        min-height: 20vh;
+    }
+}

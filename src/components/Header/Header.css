@@ -1,0 +1,305 @@
+.header {
+    min-height: calc(100vh - 80px);
+    width: 100%;
+    color: var(--main-color);
+    /* background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.95)), url(/src/images/caterer.png); */
+    background-position: center;
+    background-size: cover;
+    /* position: relative;
+    top: 90px; */
+    margin-top: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        min-height: calc(100vh - 60px);
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .header {
+        min-height: calc(100vh - 70px);
+    }
+}
+
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .header {
+        min-height: calc(100vh - 200px);
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .header {
+        min-height: calc(100vh - 120px);
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .header {
+        min-height: calc(100vh - 100px);
+    }
+}
+
+.header-container {
+    padding: 0px;
+    margin-top: 00px;
+    display: flex;
+    align-items: flex-start;
+    height: initial;
+    background: #000;
+}
+
+@media only screen and (max-width: 600px) {
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .header-container {
+        height: 90vh;
+    }
+}
+
+
+
+.header-content {
+    margin: auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-inline: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .header-content {
+        width: 100%;
+        padding: 60px 10px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .header-content {
+        width: 100%;
+        padding: 100px 20px;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .header-content {
+        width: 50%;
+        padding: 50px;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .header-content {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .header-content {
+        width: 50%;
+        padding: 50px 50px 50px 150px;
+    }
+}
+
+.header-content h3 {
+    font-size: 4.5rem;
+    line-height: 140%;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #999;
+}
+
+@media only screen and (max-width: 600px) {
+    .header-content h3 {
+        font-size: 2.7rem;
+        letter-spacing: 1px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .header-content h3 {
+        font-size: 6rem;
+        letter-spacing: 3px;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .header-content h3 {
+        font-size: 3.5rem;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .header-content h3 {
+        font-size: 4.5rem;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .header-content h3 {
+        font-size: 6.5rem;
+    }
+}
+
+.header-content h3 span {
+    font-weight: 700;
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+
+.header-content p {
+    font-size: 1.5rem;
+    line-height: 130%;
+    margin-block: 40px 60px;
+    color: #999;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 600px) {
+    .header-content p {
+        font-size: 1.2rem;
+        margin-block: 25px 50px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .header-content p {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .header-content p {
+        font-size: 1.4rem;
+        margin-block: 50px 70px;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .header-content p {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .header-content p {
+        font-size: 1.6rem;
+        margin-block: 50px 100px;
+    }
+}
+
+.chk-btn  {
+    border: none;
+    padding: 15px 20px;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    border-radius: 10px;
+    box-shadow: 0px 4px 5px #9b0b0113;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    font-weight: 500;
+    background-color: var(--chng-color);
+    text-decoration: none;
+    color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    .chk-btn {
+        font-size: 1rem;
+        padding: 13px 18px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .chk-btn {
+        font-size: 1.5rem;
+        padding: 25px 30px;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .chk-btn {
+        font-size: 1.3rem;
+        padding: 20px 25px;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .chk-btn {
+        font-size: 1.3rem;
+        padding: 18px 24px;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .chk-btn {
+        font-size: 1.7rem;
+        padding: 24px 30px;
+    }
+}
+
+.chk {
+    border: 0;
+    outline: 0;
+} 
+
+
+.chk-btn:hover {
+    color: var(--chng-color);
+    background-color: #fff;
+}
+
+/* .chk-btn:hover {
+    
+} */
+
+
+.header-img {
+    width: 50%;
+    height: 90vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .header-img {
+        width: 100%;
+        align-self: center;
+        height: 40vh;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .header-img {
+        width: 100%;
+        align-self: center;
+        height: 30vh;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .header-img {
+        height: 90vh;
+    }
+}
+
+.header-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+}

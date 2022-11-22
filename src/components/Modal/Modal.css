@@ -1,0 +1,330 @@
+.modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #252525e8;
+    z-index: 10;
+}
+
+.modal-overlay {
+    max-width: 600px;
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-shadow: 0px 0px 18px 0px #252525a9;
+    padding: 25px 40px;
+    border-radius: 10px;
+    position: relative;
+    transition: all 1s ease-in-out;
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .modal-overlay {
+        max-width: 700px;
+        width: 100%;
+        padding: 20px 50px;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .modal-overlay {
+        max-width: 760px;
+        padding: 25px 40px;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .modal-overlay {
+        max-width: 1100px;
+        padding: 40px;
+    }
+}
+
+.closeBtn {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    color: var(--text-color);
+    font-size: 1.8rem;
+    line-height: 120%;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    padding: 2px;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .closeBtn {
+        top: 0.5rem;
+        right: 1.3rem;
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .closeBtn {
+        font-size: 2.3rem;
+        top: 0.5rem;
+        right: 1.5rem;
+    }
+}
+
+.closeBtn:focus,
+.closeBtn:hover {
+    background-color: var(--chng-color);
+    padding: 0px 7.5px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.form {
+    margin-block: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: #252525;
+}
+
+@media only screen and (max-width: 600px) {
+    .form {
+        margin-block: 1rem;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .form {
+        margin-block: 2rem;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .form {
+        margin-block: 3rem;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .form {
+        margin-block: 1rem;
+    }
+}
+
+
+@media only screen and (min-width: 1801px) {
+    .form {
+        margin-block: 1.4rem;
+    }
+}
+
+.form h2 {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .form h2 {
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .form h2 {
+        font-size: 1.4rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .form h2 {
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .form h2 {
+        font-size: 1.3rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .form h2 {
+        font-size: 1.7rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.form-container {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.form-container * input[type="text"],
+.form-container * input[type="email"],
+.form-container * input[type="tel"],
+.form-container * input[type="date"],
+.form-container * input[type="number"],
+.form-container * input[type="time"],
+.form-container * select {
+    width: 100%;
+    padding: 10px 10px;
+    margin-block: 10px;
+    font-size: 1.1rem;
+    color: var(--text-color);
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+@media only screen and (max-width: 600px) {
+    .form-container * input[type="text"], .form-container * input[type="email"],
+    .form-container * input[type="tel"],
+    .form-container * input[type="date"],
+    .form-container * input[type="number"],
+    .form-container * input[type="time"],
+    .form-container * select {
+        padding: 8px 7px;
+        font-size: 1rem;
+        margin-block: 8px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .form-container * input[type="text"], .form-container * input[type="email"],
+    .form-container * input[type="tel"],
+    .form-container * input[type="date"],
+    .form-container * input[type="number"],
+    .form-container * input[type="time"],
+    .form-container * select {
+        padding: 10px;
+        font-size: 1.2rem;
+        margin-block: 1rem;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .form-container * input[type="text"], .form-container * input[type="email"],
+    .form-container * input[type="tel"],
+    .form-container * input[type="date"],
+    .form-container * input[type="number"],
+    .form-container * input[type="time"],
+    .form-container * select {
+        padding: 12px;
+        font-size: 1.25rem;
+        margin-block: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .form-container * input[type="text"], .form-container * input[type="email"],
+    .form-container * input[type="tel"],
+    .form-container * input[type="date"],
+    .form-container * input[type="number"],
+    .form-container * input[type="time"],
+    .form-container * select {
+        padding: 10px;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .form-container * input[type="text"], .form-container * input[type="email"],
+    .form-container * input[type="tel"],
+    .form-container * input[type="date"],
+    .form-container * input[type="number"],
+    .form-container * input[type="time"],
+    .form-container * select {
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+}
+
+.form-container * select:focus {
+    outline: none;
+}
+
+.form-container input:focus {
+    border: none;
+    outline: 1px solid var(--chng-color);
+}
+
+.fullName,
+.contact-details,
+.guest {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .fullName, .contact-details {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .dateTime {
+        flex-direction: row;
+        gap: 1rem;
+    }
+}
+
+
+.btn-sbmt {
+    padding: 15px 30px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    border: none;
+    background: var(--chng-color);
+    color: #fff;
+    font-weight: 300;
+    cursor: pointer;
+    line-height: 130%;
+}
+
+@media only screen and (max-width: 600px) {
+    .btn-sbmt {
+        width: 100%;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .btn-sbmt {
+        width: 50%;
+        font-size: 1.4rem;       
+    }   
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .btn-sbmt {
+        width: 35%;
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .btn-sbmt {
+        width: 30%;
+        font-size: 1.3rem;
+        padding: 15px 20px;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .btn-sbmt {
+        width: 25%;
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,252 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact {
+        min-height: 60vh;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .contact {
+        min-height: 50vh;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .contact {
+        min-height: 55vh;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .contact {
+        min-height: 60vh;
+    }
+}
+
+.contact-card {
+    max-width: 400px;
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    box-shadow: 1px 8px 20px rgba(0, 0, 0, 0.397);
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-card {
+        max-width: 360px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .contact-card {
+        max-width: 500px;
+        min-height: 256px;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .contact-card {
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .contact-card {
+        scale: 1.4;
+    }
+}
+
+.contact-card-design {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--text-color);
+    height: 200px;
+    -webkit-clip-path: polygon(93% 0, 100% 0%, 100% 99%, 67% 100%);
+    clip-path: polygon(93% 0, 100% 0%, 100% 99%, 67% 100%);
+    clip-path: polygon(0 4%, 0% 100%, 100% 100%);
+    /* clip-path: circle(50%); */
+    max-width: 150px;
+    width: 100%;
+    z-index: 1;
+    border-radius: 0px 0px 0px 5px;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .contact-card-design {
+        height: 256px;
+    }
+}
+
+.contact-card-design-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--text-color);
+    clip-path: polygon(25% 0%, 100% 0%, 100% 21%, 40% 21%);
+    max-width: 350px;
+    width: 100%;
+    height: 250px;
+    border-radius: 0 5px 0 0;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .contact-card-design-2 {
+        max-width: 450px;
+        height: 300px;
+    }
+}
+
+.contact-logo {
+    width: 50px;
+    height: 50px;
+    z-index: 10;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1.5rem;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .contact-logo {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+.contact-logo img {
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+}
+
+.contact-person {
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .contact-person {
+        padding: 15px;
+    }
+}
+
+.contact-person h2 {
+    font-size: 1rem;
+    line-height: 130%;
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .contact-person h2 {
+        font-size: 1.2rem;
+    }
+}
+
+.contact-person p {
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .contact-person p {
+        font-size: 1rem;
+    }
+}
+
+.contact-person-details {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    width: 60%;
+    color: var(--text-color);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .contact-person-details {
+        gap: 15px;
+    }
+}
+
+.contact-person-details svg {
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .contact-person-details svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.contact-person-address,
+.contact-person-mail {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .contact-person-address,
+    .contact-person-mail {
+        gap: 20px;
+    }
+}
+
+.contact-person-address p {
+    font-size: 0.91rem;
+    width: 90%;
+    line-height: 1rem;
+    margin-inline-start: 35px;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .contact-person-address p {
+        font-size: 1rem;
+        width: 100%;
+        margin-inline-start: 20px;
+    }
+}
+
+.contact-person-mail a {
+    text-decoration: none;
+    color: var(--text-color);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 0.9rem;
+    line-height: 120%;
+    width: 100%;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .contact-person-mail a {
+        font-size: 1rem;
+    }
+}
+
+
+.contact-person-mail a:hover,
+.contact-person-mail a:focus {
+    color: var(--chng-color);
+}

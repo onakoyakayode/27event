@@ -1,0 +1,69 @@
+.intercontinental-food-img {
+    min-height: 25vh;
+    background: url('../../../../images/butter.jpg');
+    background-position: center -30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .intercontinental-food-img {
+        min-height: 10vh;
+        background-position: 0 -10vh;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .intercontinental-food-img {
+        min-height: 15vh;
+        background-position: center -10vh;;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .intercontinental-food-img {
+        min-height: 15vh;
+        background-position: center -10vh;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .intercontinental-food-img {
+        min-height: 20vh;
+    }
+}
+
+.intercontinental-food-img-2 {
+    min-height: 25vh;
+    background: url('../../../../images/butter.jpg');
+    background-position: 0 -50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .intercontinental-food-img-2 {
+        min-height: 10vh;
+        background-position: 0 -15vh;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .intercontinental-food-img-2 {
+        min-height: 15vh;
+        background-position: center -30vh;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .intercontinental-food-img-2 {
+        min-height: 15vh;
+        background-position: center -25vh;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .intercontinental-food-img-2 {
+        min-height: 20vh;
+    }
+}

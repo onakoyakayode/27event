@@ -1,0 +1,220 @@
+.order {
+    padding: 50px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .order {
+        padding: 20px 10px;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .order {
+        padding: 50px 20px;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .order {
+        padding: 50px 80px;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .order {
+        padding: 50px 100px;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .order {
+        padding: 50px 150px;
+    }
+}
+
+.order-step {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .order-step {
+        gap: 1.1rem;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .order-step {
+        gap: 1rem;
+    }
+}
+
+.order-image {
+    width: 150px;
+    height: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+    .order-image {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .order-image {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .order-image {
+        width: 135px;
+        height: 135px;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .order-image {
+        width: 140px;
+        height: 140px;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .order-image {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+.order-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.order-num h2 {
+    color: var(--chng-color);
+    padding: 5px 10px;
+    border: 3px solid var(--chng-color);
+    border-radius: 50%;
+    font-size: 1.4rem;
+    line-height: 120%;
+}
+
+@media only screen and (max-width: 600px) {
+    .order-num h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .order-num h2 {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .order-num h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .order-num h2 {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media only screen and (min-width: 1801px) {
+    .order-num h2 {
+        font-size: 1.6rem;
+    }
+}
+
+.order-step h2 {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    line-height: 120%;
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .order-step h2 {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .order-step h2 {
+        font-size: 1.4rem;
+    }
+} 
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .order-step h2 {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .order-step h2 {
+        font-size: 2rem;
+    }
+}
+
+.order-step p {
+    font-size: 1.2rem;
+    line-height: 130%;
+    text-align: center;
+    width: 80%;
+    font-weight:200;
+}
+
+@media only screen and (max-width: 600px) {
+    .order-step p {
+        width: 90%;
+        font-size: 1.1rem;
+        line-height: 1.4rem;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .order-step p {
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .order-step p {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+} 
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .order-step p {
+        font-size: 1.15rem;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .order-step p {
+        font-size: 1.5rem;
+        width: 90%;
+    }
+}

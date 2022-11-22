@@ -1,0 +1,334 @@
+.nigerian-food-img {
+    min-height: 25vh;
+    background: url('../../../../images/jollofrice.jpeg');
+    background-position: center -30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .nigerian-food-img {
+        min-height: 10vh;
+        background-position: center;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .nigerian-food-img {
+        min-height: 15vh;
+        background-position: center -10vh;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .nigerian-food-img {
+        min-height: 15vh;
+        background-position: center -10vh;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .nigerian-food-img {
+        min-height: 25vh;
+        background-position: center -33vh;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .nigerian-food-img {
+        min-height: 20vh;
+        background-position: center -352h;
+    }
+}
+
+.nigerian-food-details {
+    padding: 100px 350px;
+    background-color: rgb(246, 246, 246);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .nigerian-food-details {
+        padding: 50px 10px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .nigerian-food-details {
+        padding: 50px 100px;
+        min-height: 80vh;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .nigerian-food-details {
+        padding: 50px 200px;
+        min-height: 80vh;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .nigerian-food-details {
+        padding: 100px 350px;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .nigerian-food-details {
+        padding: 100px 450px;
+    }
+}
+
+.nigerian-food-details h2 {
+    color: var(--chng-color);
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+    .nigerian-food-details h2 {
+        font-size: 1.8rem;
+        line-height: 140%;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .nigerian-food-details h2 {
+        font-size: 2.2rem;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .nigerian-food-details h2 {
+        font-size: 2.3rem;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .nigerian-food-details h2 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .nigerian-food-details h2 {
+        font-size: 2.6rem;
+    }
+}
+
+.nigerian-food-details h2::after {
+    position: absolute;
+    content: "";
+    background: #555;
+    left: 45%;
+    bottom: -40px;
+    width: 20%;
+    height: 2px;
+    opacity: 0.6;
+    margin-bottom: 30px;
+}
+
+.nigerian-food-price {
+    align-self: flex-start;
+    width: 100%;
+    color: var(--text-color);
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .nigerian-food-price {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .nigerian-food-price {
+        margin-block: 30px;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .nigerian-food-price {
+        margin-block: 40px;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .nigerian-food-price {
+        margin-block: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .nigerian-food-price {
+        margin-block: 2rem;
+    }
+}
+
+.nigerian-food-price-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nigerian-food-price-options h4 {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 120%;
+    letter-spacing: 1px;
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .nigerian-food-price-options h4 {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .nigerian-food-price-options h4 {
+        font-size: 1.7rem;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .nigerian-food-price-options h4 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .nigerian-food-price-options h4 {
+        font-size: 2rem;
+    }
+}
+
+
+@media only screen and (min-width: 1801px) {
+    .nigerian-food-price-options h4 {
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+}
+
+.nigerian-food-price h5 {
+    margin-block: 20px 30px;
+    font-size: 1.25rem;
+    line-height: 130%;
+}
+
+@media only screen and (max-width: 600px) {
+    .nigerian-food-price h5 {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .nigerian-food-price h5 {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .nigerian-food-price h5 {
+        font-size: 1.35rem;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .nigerian-food-price h5 {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .nigerian-food-price h5 {
+        font-size: 1.5rem;
+    }
+}
+
+
+.nigerian-food-price ul li {
+    list-style: none;
+    margin-block: 15px;
+    font-size: 1.2rem;
+    line-height: 125%;
+}
+
+@media only screen and (max-width: 600px) {
+    .nigerian-food-price ul li {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .nigerian-food-price ul li {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .nigerian-food-price ul li {
+        font-size: 1.35rem;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .nigerian-food-price ul li {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .nigerian-food-price ul li {
+        font-size: 1.5rem;
+    }
+}
+
+.nigerian-food-img-2 {
+    min-height: 25vh;
+    background: url('../../../../images/jollofrice.jpeg');
+    background-position: 0 -50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .nigerian-food-img-2 {
+        min-height: 10vh;
+        background-position: 0 -20vh;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .nigerian-food-img-2 {
+        min-height: 15vh;
+        background-position: center -25vh;;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .nigerian-food-img-2 {
+        min-height: 15vh;
+        background-position: center -18vh;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .nigerian-food-img-2 {
+        min-height: 25vh;
+        background-position: center -70vh;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .nigerian-food-img-2 {
+        min-height: 20vh;
+    }
+}

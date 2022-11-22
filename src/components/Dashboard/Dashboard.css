@@ -1,0 +1,21 @@
+.dashboard {
+    min-height: 100vh;
+    width: 100%;
+    background-color: transparent;
+    padding: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .dashboard {
+        padding: 50px 10px;
+    }
+}
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-children {
+    height: 100%;
+}

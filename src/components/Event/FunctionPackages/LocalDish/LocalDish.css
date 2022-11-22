@@ -1,0 +1,74 @@
+.local-food-img {
+    min-height: 25vh;
+    background-position: 0 -40vh;
+    max-height: 100%;
+    background-image: url('../../../../images/amala.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .local-food-img {
+        min-height: 10vh;
+        background-position: 0 -10vh;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .local-food-img {
+        min-height: 15vh;
+        background-position: center -8vh;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .local-food-img {
+        min-height: 15vh;
+        background-position: center -10vh;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .local-food-img {
+        min-height: 20vh;
+    }
+}
+
+
+
+.local-food-img-2 {
+    min-height: 25vh;
+    background: url('../../../../images/amala.jpeg');
+    background-position: 0 -70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .local-food-img-2 {
+        min-height: 10vh;
+        background-position: 0 -20vh;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .local-food-img-2 {
+        min-height: 15vh;
+        background-position: center -20vh;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .local-food-img-2 {
+        min-height: 15vh;
+        background-position: center;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .local-food-img-2 {
+        min-height: 20vh;
+        background-position: center;
+    }
+}

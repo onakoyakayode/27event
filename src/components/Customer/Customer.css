@@ -1,0 +1,29 @@
+.customer {
+    padding: 50px 100px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+@media only screen and (max-width: 600px) {
+    .customer {
+        padding: 50px 10px;
+    }
+}
+
+.customer h2 {
+    font-size: 2rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .customer h2 {
+        font-size: 1.7rem;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .customer h2 {
+        font-size: 2.6rem;
+    }
+}
+

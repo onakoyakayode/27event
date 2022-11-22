@@ -1,0 +1,124 @@
+.food {
+    margin: 100px auto 30px auto;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem 2rem;
+    padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .food {
+        gap: 8px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .food {
+        gap: 1rem;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .food {
+        gap: 2rem;
+    }
+}
+
+.breakfast-meal {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .breakfast-meal {
+        gap: 1rem 10px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .breakfast-meal {
+        gap: 3rem 1rem;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .breakfast-meal {
+        gap: 4rem 3rem;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .breakfast-meal {
+        gap: 3rem;
+    }
+}
+
+/* .breakfast-meal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem 1rem;
+}
+
+.most-pop-meal {
+    height: 100%;
+    width: 700px;
+    height: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 10px 20px #9b0b0136;
+}
+
+.most-pop-img {
+    width: 500px;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.most-pop-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.most-pop-meal button {
+    padding: 15px 25px;
+    color: #fff;
+    background-color: var(--chng-color);
+    border-radius: 5px;
+    font-size: 1.4rem;
+    border: none;
+    box-shadow: 1px 10px 20px #9b0b0136;
+}
+
+
+.most-pop-meal h1 {
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+    margin-block: 25px 5px;
+    color: var(--text-color);
+}
+
+.most-pop-meal span {
+    color: var(--chng-color);
+    font-size: 1.3rem;
+}
+
+.most-pop-meal .price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+
+.most-pop-meal .price h4 {
+    font-size: 3rem;
+    color: var(--text-color);
+    line-height: 2rem;
+} */
