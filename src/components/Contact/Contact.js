@@ -4,7 +4,7 @@ import Navbar from '../Navbar/Navbar'
 import './Contact.css'
 import Logo from '../../images/27-event-logo.jpeg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faInstagram, faTwitter, faWhatsapp, faYoutube, faPeriscope, faHashnode } from '@fortawesome/free-brands-svg-icons'
+import { faWhatsapp, faHashnode } from '@fortawesome/free-brands-svg-icons'
 import { MessageIcon, Phone } from '../../Icon'
 import 'animate.css';
 
@@ -37,7 +37,7 @@ const Contact = ({openModal, setOpenModal}) => {
                         <Phone />
                     </div>
                     <div className='contact-person-mail'>
-                        <a href=''>08139376379</a>
+                        <a href='google.com'>08139376379</a>
                         <FontAwesomeIcon icon={faWhatsapp} />
                     </div>
 

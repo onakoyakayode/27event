@@ -1,7 +1,7 @@
 import React from 'react'
 // import { AddToCart } from '../../../Icon'
 import BreakfastMeal from '../../BreakfastMeal/BreakfastMeal'
-import Dashboard from '../../Dashboard/Dashboard'
+// import Dashboard from '../../Dashboard/Dashboard'
 import Breakfast from './Breakfast'
 import './Breakfast.css'
 
