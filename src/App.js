@@ -4,7 +4,6 @@ import 'animate.css';
 import './App.css'
 // import Customer from './components/Customer/Customer';
 import Dashboard from './components/Dashboard/Dashboard';
-import Navbar from "./components/Navbar/Navbar";
 // import Header from "./components/Header/Header";
 // // import Breakfast from './components/Meal/Breakfast/Breakfast';
 // // import Menu from './components/Menu/Menu';
