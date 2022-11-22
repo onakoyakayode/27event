@@ -134,26 +134,26 @@
 
 @media only screen and (min-width: 601px) and (max-width: 900px) {
     .header-content h3 {
-        font-size: 6rem;
+        font-size: 5rem;
         letter-spacing: 3px;
     }
 }
 
 @media only screen and (min-width: 901px) and (max-width: 1200px) {
     .header-content h3 {
-        font-size: 3.5rem;
+        font-size: 3.3rem;
     }
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1800px) {
     .header-content h3 {
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
 }
 
 @media only screen and (min-width: 1801px) {
     .header-content h3 {
-        font-size: 6.5rem;
+        font-size: 5.5rem;
     }
 }
 
@@ -204,13 +204,17 @@
     }
 }
 
-.chk-btn  {
-    border: none;
+.chk {
     padding: 15px 20px;
-    font-size: 1.2rem;
-    text-transform: capitalize;
+    background-color: var(--chng-color);
     border-radius: 10px;
     box-shadow: 0px 4px 5px #9b0b0113;
+    border: none;
+} 
+
+.chk-btn  {
+    font-size: 1.2rem;
+    text-transform: capitalize;
     cursor: pointer;
     transition: all 0.4s ease-in-out;
     font-weight: 500;
@@ -222,13 +226,16 @@
 @media only screen and (max-width: 600px) {
     .chk-btn {
         font-size: 1rem;
-        padding: 13px 18px;
     }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 900px) {
     .chk-btn {
         font-size: 1.5rem;
+        
+    }
+
+    .chk {
         padding: 25px 30px;
     }
 }
@@ -236,6 +243,9 @@
 @media only screen and (min-width: 901px) and (max-width: 1200px) {
     .chk-btn {
         font-size: 1.3rem;
+    }
+
+    .chk {
         padding: 20px 25px;
     }
 }
@@ -243,6 +253,9 @@
 @media only screen and (min-width: 1201px) and (max-width: 1800px) {
     .chk-btn {
         font-size: 1.3rem;
+    }
+
+    .chk {
         padding: 18px 24px;
     }
 }
@@ -250,14 +263,14 @@
 @media only screen and (min-width: 1801px) {
     .chk-btn {
         font-size: 1.7rem;
+    }
+
+    .chk {
         padding: 24px 30px;
     }
 }
 
-.chk {
-    border: 0;
-    outline: 0;
-} 
+
 
 
 .chk-btn:hover {
