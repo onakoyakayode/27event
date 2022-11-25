@@ -18,6 +18,7 @@ const Footer = () => {
                 </div>
                 <div className='coy-address'>
                     <p>4, Ogunseinde street, ketu, Lagos state, Nigeria</p>
+                    <p>Shop 3, The light complex. Behind Glo office challenge, Ibadan.</p>
                 </div>
                 <div className='coy-num'>
                     <a href='tel:08139376379'>08139376379</a>

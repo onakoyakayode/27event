@@ -87,6 +87,7 @@
     .header-content {
         width: 100%;
         padding: 60px 10px;
+        min-height: 80vh;
     }
 }
 
@@ -119,7 +120,7 @@
 
 .header-content h3 {
     font-size: 4.5rem;
-    line-height: 140%;
+    line-height: 150%;
     font-weight: 300;
     letter-spacing: 2px;
     color: #999;

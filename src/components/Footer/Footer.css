@@ -189,7 +189,9 @@
     line-height: 130%;
     font-weight: 200;
     width: 80%;
+    margin-block: 10px;
 }
+
 
 @media only screen and (max-width: 600px) {
     .coy-address p {
@@ -407,15 +409,15 @@
 
 @media only screen and (max-width: 600px) {
     .socials {
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
     }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 900px) {
     .socials {
-        width: 30px;
-        height: 30px;
+        width: 27px;
+        height: 27px;
     }
 }
 

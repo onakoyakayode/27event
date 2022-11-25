@@ -71,7 +71,7 @@
 
 @media only screen and (max-width: 600px) {
     .nav-logo {
-        width: 60px;
+        width: 65px;
         height: 100%;
     }
 }
@@ -232,7 +232,7 @@
 @media only screen and (max-width: 600px)  {
     .nav-items .b {
         color: #fff;
-        margin: 9% 0;
+        margin: 10% 0;
         margin-inline-end: auto;
         margin-inline-start: auto;  
     }
@@ -411,10 +411,10 @@
 @media only screen and (max-width: 600px) {
     .counter {
         top: -2.9rem;
-        padding: 2px 5px;
+        padding: 3px 7px;
         font-size: .9rem;
         right: 14%;
-        width: 6%;
+        width: 7%;
     }
 }
 

@@ -105,7 +105,7 @@
 
 .order-num h2 {
     color: var(--chng-color);
-    padding: 5px 10px;
+    padding: 2px 10px;
     border: 3px solid var(--chng-color);
     border-radius: 50%;
     font-size: 1.4rem;
@@ -114,7 +114,7 @@
 
 @media only screen and (max-width: 600px) {
     .order-num h2 {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 }
 
