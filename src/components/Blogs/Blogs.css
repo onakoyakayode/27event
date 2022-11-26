@@ -63,21 +63,21 @@
 @media only screen and (min-width: 901px) and (max-width: 1200px) {
     .blog-title {
         padding: 50px 40px;
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1800px) {
     .blog-title {
-        padding: 50px 100px;
-        
+        padding: 50px 70px;
+        font-size: 2rem;
     }
 }
 
 @media only screen and (min-width: 1801px) {
     .blog-title {
         padding: 50px 150px;
-        font-size: 2.4rem;
+        font-size: 2.2rem;
     }
 }
 
@@ -109,7 +109,8 @@
 @media only screen and (min-width: 1201px) and (max-width: 1800px) {
     .blog-title::after {
         width: 4%;
-        left: 9%;
+        left: 6%;
+        bottom: 40px;
     }
 }
 
@@ -221,14 +222,14 @@
 
 @media only screen and (min-width: 901px) and (max-width: 1200px) {
     .swiper {
-        min-height: 45vh;
+        min-height: 50vh;
         padding-bottom: 15px;
     }
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1800px) {
     .swiper {
-        min-height: 45vh;
+        min-height: 50vh;
         padding-bottom: 20px;
     }
 }
@@ -324,7 +325,7 @@
 
 @media only screen and (min-width: 1201px) and (max-width: 1800px) {
     .swiper-slide img {
-        min-height: 22vh;
+        min-height: 25vh;
     }
 }
 
