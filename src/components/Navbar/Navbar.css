@@ -44,14 +44,14 @@
 
 @media only screen and (min-width: 1201px) and (max-width: 1800px) {
     .nav {
-        padding: 0 100px;
+        padding: 0 70px;
         height: 90px;
     }
 }
 
 @media only screen and (min-width: 1801px) {
     .nav {
-        padding: 0 120px;
+        padding: 0 110px;
         height: 100px;
     }
 }
@@ -255,7 +255,7 @@
 
 @media only screen and (min-width: 1201px) and (max-width: 1800px) {
     .nav-items .b {
-        margin-inline: 25px;
+        margin-inline: 23px;
         font-size: 1rem;
     }
 }
@@ -329,7 +329,8 @@
 
 @media only screen and (min-width: 1201px) and (max-width: 1800px) {
     .booking li {
-        left: 13vw;
+        left: 10vw;
+        font-size: 1rem;
     }
 }
 
